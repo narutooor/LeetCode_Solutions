@@ -13,5 +13,7 @@ LeetCode
 |1108|| |Easy|Simulation|
 |1394|| |Easy|Simulation|
 |1394|| |Easy|Simulation|
+|1455|| |Easy|Simulation|
+|1464|| |Easy|Simulation|
 |1470|| |Easy|Simulation|
 |1857|[Largest Color Value in a Directed Graph](https://leetcode.com/problems/largest-color-value-in-a-directed-graph/) | [C++](./algorithms/cpp/largestColorValueInADirectedGraph/LargestColorValueInADirectedGraph.cpp)|Hard|Graph|
