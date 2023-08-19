@@ -129,3 +129,5 @@ LeetCode
 |2769|| |Easy|Simulation|
 |2778|| |Easy|Simulation|
 |2806|| |Easy|Simulation|
+|2824|| |Easy|Simulation|
+|2825|| |Easy|Simulation|
