@@ -1,68 +1,39 @@
-# LeetCode Solutions — Meta Interview Track
+# LLM Research Scientist — 340-Item Training Program
 
-A curated collection of **C++17** solutions for data structures and algorithms, organized around reusable interview patterns.
+A public, evidence-based interview and research preparation curriculum for **LLM Research Scientist** (Post-training / RL / Reasoning), built around **Bayesian uncertainty quantification (UQ)** and **cost-aware decision-making**.
 
-The objective of this repository is to build reliable performance for Meta-style coding interviews: clarify the problem, derive an efficient approach, communicate invariants, implement cleanly, and validate edge cases under time pressure.
+## The 340-item curriculum
 
-## Focus Areas
+| Track | Count | File |
+|---|---:|---|
+| Coding / Python / LeetCode | 180 | [coding_180.csv](./coding_180.csv) |
+| LLM theory and scientific interview questions | 120 | [science_120.csv](./science_120.csv) |
+| Implementations, reproducible experiments, and research defense | 40 | [projects_40.csv](./projects_40.csv) |
+| **Total** | **340** | |
 
-- Arrays, hash maps, and prefix techniques
-- Two pointers and sliding windows
-- Linked lists, stacks, and queues
-- Binary search and interval problems
-- Trees, tries, and graph traversal
-- Heaps, greedy algorithms, and union-find
-- Dynamic programming and state compression
+**Research direction:** Bayesian UQ → calibrated LLM reward modeling → uncertainty-aware Post-training / RL → reliable cost-efficient reasoning agents.
 
-## Repository Standards
+## How the repository is used
 
-Each maintained solution should include:
+- The authoritative progress ledger is [Google Sheets](https://docs.google.com/spreadsheets/d/1P5QgHlY9gdTVKlbOffBZDjmbkkDshsgIQ0KpTcXMAps/edit).
+- Each completed Coding session should have independent code, actual Python test results, and a short failure / complexity analysis. Use [SESSION_TEMPLATE.md](./SESSION_TEMPLATE.md).
+- Store future evidence in `solutions/`, `tests/`, `reviews/`, and project experiment folders as work is genuinely completed. Do not invent code or results to fill empty folders.
+- Each substantive GitHub commit should be linked back to the corresponding Google Sheets exercise and training log. Mark mastered only after passing independent re-test and explanation.
+- Start-of-track baseline: **LC1, LC49, LC217 and LC242 practiced**, not newly certified mastered. See [practice baseline](./reviews/practice-status-2026-10-21.md).
 
-1. A concise problem statement or source link
-2. The core algorithmic pattern
-3. Time and space complexity
-4. Important invariants and edge cases
-5. Readable C++17 implementation
-6. A small set of representative tests when practical
+## Research identity (career narrative)
 
-Preferred naming convention:
+> I study Bayesian uncertainty quantification and cost-efficient decision-making. My experience in clinical-trial optimization motivates my work on reliable LLM post-training, reward modeling, and uncertainty-aware reinforcement learning.
 
-```text
-<Pattern>/<problem_id>_<descriptive_problem_name>.cpp
-```
+The clinical-trial work is a differentiated research motivation; it does not substitute for general LLM experimental evidence.
 
-## Curated Solution Index
+## Limitations and provenance
 
-| # | Problem | Solution | Difficulty | Pattern | Complexity |
-|---:|---|---|:---:|---|---|
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [C++](./Hash_Table/1_Two_Sum.cpp) | Easy | Hash Map | `O(n)` time, `O(n)` space |
-| 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [C++](./Linked_List/2_Add_Two_Numbers.cpp) | Medium | Linked List | `O(max(m,n))` time |
-| 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [C++](./Sliding_Window/3_Longest_Substring_Without_Repeating_Characters.cpp) | Medium | Sliding Window | `O(n)` time |
-| 1857 | [Largest Color Value in a Directed Graph](https://leetcode.com/problems/largest-color-value-in-a-directed-graph/) | [C++](./algorithms/cpp/largestColorValueInADirectedGraph/LargestColorValueInADirectedGraph.cpp) | Hard | Topological DP | `O(V + E + 26V)` time |
+- The CSVs were copied from the Google Sheets training ledger on **2026-10-21**.
+- The Hot 100 and NeetCode 150 classification fields were **not fully independently verified**. Some LeetCode IDs are blank. Do not claim full official-list coverage without a separate audit.
+- The number 340 counts *planned exercises*, not completed work or hiring qualification.
+- This repository is **public**. Do not upload clinical patient data, unpublished collaborator findings, confidential documents, credentials or keys.
 
-Only verified solution links are listed here. Additional solutions will be added after their paths, explanations, and complexity analyses are reviewed.
+## Replacement of prior repository material
 
-## Interview Workflow
-
-For every problem, use the same communication loop:
-
-1. **Clarify** inputs, outputs, constraints, and edge cases.
-2. **Establish a baseline** with a correct brute-force approach.
-3. **Optimize** by identifying the governing data structure or pattern.
-4. **State invariants** before implementation.
-5. **Implement** with clear names and minimal incidental complexity.
-6. **Validate** normal, boundary, and adversarial cases.
-7. **Summarize** complexity and tradeoffs.
-
-## Quality Roadmap
-
-- [ ] Curate a focused set of high-frequency interview patterns
-- [ ] Remove duplicate and placeholder entries
-- [ ] Add per-solution explanations and complexity notes
-- [ ] Add lightweight automated compilation checks
-- [ ] Add representative unit tests
-- [ ] Maintain a progress dashboard by pattern and difficulty
-
-## Scope
-
-This repository is intended as an interview-preparation and algorithmic-reasoning portfolio. Research code, machine-learning systems, and production projects should live in separate repositories with their own reproducibility documentation, tests, and experiment reports.
+This repository previously held C++ interview solutions and a nested preparation directory. Its main-branch working tree was deliberately **replaced** by this 340-item curriculum on 2026-10-21 at the owner's request. The earlier files remain recoverable through Git history; the current root directory now represents the 340-item training program.
