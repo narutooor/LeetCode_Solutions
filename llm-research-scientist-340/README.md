@@ -1,10 +1,14 @@
-# Python 180 — LLM Research Scientist Coding Track
+# LLM Research Scientist — 340-Item Training Program
 
-This directory holds the **Python interview practice track** associated with the Google Sheets 340-item research-scientist training ledger.
+This directory holds the **complete 340-item LLM Research Scientist training program**: 180 Python coding questions, 120 LLM science questions and 40 reproducible research exercises. The live Google Sheets ledger tracks progress.
 
 **Learning evidence is not the same as mastery.** Progress is tracked using *practiced*, *independently passed*, and *mastered* states. Never fabricate tests, solutions, dates, or scores.
 
-## Layout
+## Curriculum
+
+- [Question Bank 340](./question-bank-340/README.md): Coding 180 + Science 120 + Research Projects 40
+
+## Coding practice layout
 
 - `solutions/`: independently written solutions, named `lcXXXX_slug.py`
 - `tests/`: independently executed Python tests, named `test_lcXXXX.py`
